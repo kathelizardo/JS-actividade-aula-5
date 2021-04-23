@@ -46,6 +46,7 @@ if (pessoas [0].ciudade == pessoas [1].cuidade) {
 
 else { console.log (`${pessoas[0].nome} e ${pessoas[1].nome} Não moram no mesmo lugar`) }
 
+
 if (pessoas [0].nacionalidade == pessoas [1].nacionalidade) {
     console.log(`${pessoas[0].nome} e ${pessoas[0].sobrenome} têm a mesma nacionalidade`) }
 
