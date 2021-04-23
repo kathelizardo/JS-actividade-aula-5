@@ -9,12 +9,15 @@ for (let i=0; i<2; i++) {
     let nacionalidade=prompt( 'Nacionalidade');
     let ciudade= prompt('Ciudade de Residência');
     let corfavorita= prompt ('Cor Favorita');
-
+   
+    console.log('REGISTROS');
     console.log('Nome:' + nome + (' ')+ sobrenome );
     console.log('Idade:' + idade + (' ') + 'anos');
     console.log('Nacionalidade:' + nacionalidade);
     console.log('Lugar de Residência:' + ciudade);
     console.log('Cor Favorita:' + corfavorita);
+    
+
    
     let registro = {
 
@@ -29,6 +32,7 @@ for (let i=0; i<2; i++) {
     pessoas.push(registro)
 
  }
+
  console.log('--------------------------------')
  console.log('informação de interesse');
 
